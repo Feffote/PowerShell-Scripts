@@ -1,5 +1,5 @@
-﻿#pasar archivo con lista de dominios y IDs; ej EMPRESA\500720321
-$users = Get-Content 'C:\[...]\Users.txt' #pasar ruta hacia el archivo .txt
+﻿#pass file with list of domains and IDs; ex: COMPANY\500720321
+$users = Get-Content 'C:\[...]\Users.txt' #pass route to the file .txt
 
 $nameList = @()
 foreach($user in $users){
