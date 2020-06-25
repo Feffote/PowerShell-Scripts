@@ -1,4 +1,4 @@
-﻿#import module from local
+﻿#import ReportingServicesTools module from local
 Import-Module 'C:\Users\[...]\ReportingServicesTools-master\ReportingServicesTools\ReportingServicesTools.psm1'
 
 #specify the content server
