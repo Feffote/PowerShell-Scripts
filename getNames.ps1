@@ -1,4 +1,6 @@
-﻿#pass file with list of domains and IDs; ex: COMPANY\500720321
+#get names and email addresses of Report Server users from their DOMAIN/ID
+ 
+#pass file with list of domains and IDs; ex: COMPANY\500720321
 $users = Get-Content 'C:\[...]\Users.txt' #pass route to the file .txt
 
 $nameList = @()
